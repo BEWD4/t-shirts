@@ -2,6 +2,13 @@
   Here are my t-shirts!
 </h1>
 
+<div>
+  <form action="/search" >
+    <input name="q" type="text" />
+    <button>Go go go</button>
+  </form>
+</div>
+
 <% @shirts.each do |shirt| %>
   <p> Name: <%= shirt.name %> </p>
   <p> Description: <%= shirt.description %> </p>
