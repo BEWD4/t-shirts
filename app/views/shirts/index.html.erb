@@ -1,3 +1,10 @@
 <h1>
   Here are my t-shirts!
 </h1>
+
+<% @shirts.each do |shirt| %>
+  <p> Name: <%= shirt.name %> </p>
+  <p> Description: <%= shirt.description %> </p>
+  <p><%=  image_tag shirt.image, size: '124' %> </p>
+  <hr>
+<% end %>

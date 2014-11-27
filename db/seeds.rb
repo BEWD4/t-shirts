@@ -1,3 +1,4 @@
+Tshirt.delete_all
 Tshirt.create name: "Rushed to Market", description: "Meta Shirt showing Warning about inability to load shirt", image: "rushed_to_market.png"
 Tshirt.create name: "Darwin's Delight", description: "Darwin with paper cutouts of evolution", image: "darwins_delight.png"
 Tshirt.create name: "Victory through Chaos", description: "Button Masher's Manifesto", image: "victory_through_chaos.png"
