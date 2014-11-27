@@ -10,8 +10,5 @@
 </div>
 
 <% @shirts.each do |shirt| %>
-  <p> Name: <%= shirt.name %> </p>
-  <p> Description: <%= shirt.description %> </p>
-  <p><%=  image_tag shirt.image, size: '124' %> </p>
-  <hr>
+  <%= render partial: 'shirt', locals: { a_shirt: shirt } %>
 <% end %>

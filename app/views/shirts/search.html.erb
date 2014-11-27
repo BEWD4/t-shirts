@@ -5,9 +5,5 @@
   <h1>NOT FOUND</h1>
 <% else  %>
   <p>Here's your shirt:</p>
-  <p>
-    <%= @shirt.name %>
-    <br>
-    <%= image_tag @shirt.image %>
-  </p>
+  <%= render partial: 'shirt', locals: { a_shirt: @shirt } %>
 <% end  %>
