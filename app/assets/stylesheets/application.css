@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+
+#Body {
+    width: 60%;
+    margin: 0 auto;
+    }
+
+.tshirt {
+    float: left;
+    width: 200px;
+    min-height: 200px;
+    margin: 0 auto;
+    border: 1pt solid grey;
+    }
