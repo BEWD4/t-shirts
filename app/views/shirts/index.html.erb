@@ -9,6 +9,10 @@
   </form>
 </div>
 
+<p>
+  <%= link_to 'create new', tshirts_path %>
+</p>
+
 <% @shirts.each do |shirt| %>
   <%= render partial: 'shirt', locals: { a_shirt: shirt } %>
 <% end %>

@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   root 'shirts#index'
   get '/search' => 'shirts#search'
+  get '/new' => 'shirts#new'
+  post '/new' => 'shirts#create' , as: 'tshirts'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
